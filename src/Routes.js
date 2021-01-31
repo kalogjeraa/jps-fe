@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Navbar from './components/common/Navbar';
+import Footer from './components/common/Footer';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Certifications from './components/pages/Certifications';
@@ -24,6 +25,7 @@ const Routes = () => {
           <Route path="/quote" exact render={() => <Quote />} />
           <Route path="/telephone-dial" exact render={() => <TelephoneDial />} />
         </Switch>
+        <Footer />
       </Router>
     </>
   )
