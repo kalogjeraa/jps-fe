@@ -16,13 +16,13 @@ const Routes = () => {
       <Router>
         <Navbar />
         <Switch>
-          <Route to="/" exact render={() => <Home />} />
-          <Route to="/about" exact render={()=> <About />} />
-          <Route to="/certifications" exact render={() => <Certifications />} />
-          <Route to="/fulfillment" exact render={() => <Fulfillment />} />
-          <Route to="/private-labeling" exact render={() => <PrivateLabeling/>} />
-          <Route to="/quote" exact render={() => <Quote />} />
-          <Route to="/telephone-dial" exact render={() => <TelephoneDial />} />
+          <Route path="/" exact render={() => <Home />} />
+          <Route path="/about" exact render={()=> <About />} />
+          <Route path="/certifications" exact render={() => <Certifications />} />
+          <Route path="/fulfillment" exact render={() => <Fulfillment />} />
+          <Route path="/private-labeling" exact render={() => <PrivateLabeling/>} />
+          <Route path="/quote" exact render={() => <Quote />} />
+          <Route path="/telephone-dial" exact render={() => <TelephoneDial />} />
         </Switch>
       </Router>
     </>
