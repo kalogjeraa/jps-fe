@@ -13,16 +13,16 @@ import TelephoneDial from './components/pages/TelephoneDial';
 const Routes = () => {
   return (
     <>
-      <Navbar />
       <Router>
+        <Navbar />
         <Switch>
-          <Route to="/" exact component={Home} />
-          <Route to="/about" exact component={About} />
-          <Route to="/certifications" exact component={Certifications} />
-          <Route to="/fulfillment" exact component={Fulfillment} />
-          <Route to="/private-labeling" exact component={PrivateLabeling} />
-          <Route to="/quote" exact component={Quote} />
-          <Route to="/telephone-dial" exact component={TelephoneDial} />
+          <Route to="/" exact render={() => <Home />} />
+          <Route to="/about" exact render={()=> <About />} />
+          <Route to="/certifications" exact render={() => <Certifications />} />
+          <Route to="/fulfillment" exact render={() => <Fulfillment />} />
+          <Route to="/private-labeling" exact render={() => <PrivateLabeling/>} />
+          <Route to="/quote" exact render={() => <Quote />} />
+          <Route to="/telephone-dial" exact render={() => <TelephoneDial />} />
         </Switch>
       </Router>
     </>
