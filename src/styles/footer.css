@@ -9,3 +9,8 @@
 .container-custom img {
   width: 100px;
 }
+
+.social-icon img {
+  width: 50px;
+  color: #33cc33;
+}

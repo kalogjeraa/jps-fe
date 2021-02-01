@@ -1,7 +1,26 @@
+.navbar-brand img {
+  height: 60px;
+  width: 160px;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
 .navbar:hover {
   cursor: pointer;
   opacity: 1;
   transition: 0.4s;
+}
+
+.navbar li:hover {
+  /*border-top: 5px solid #33cc33;*/
+  box-shadow: inset 0px 5px 0px #33cc33;
+}
+
+.font-custom {
+  font-weight: bold;
+  color: #5c5c5c;
 }
 
 .shadow-custom {

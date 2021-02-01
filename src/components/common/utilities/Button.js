@@ -7,6 +7,7 @@ const Button = props => {
     styles
   } = props;
 
+
   return (
     <button
       onClick={action}

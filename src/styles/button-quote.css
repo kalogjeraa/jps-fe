@@ -1,0 +1,10 @@
+.button-corners {
+  border-radius: 2px;
+}
+
+.arrow-size {
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
+  padding-bottom: 5px;
+}

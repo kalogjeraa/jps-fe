@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 
 import ASI from '../../images/icons/asi-footer.png';
 import FDA from '../../images/icons/fda-footer.png';
+import Facebook from '../../images/icons/facebook.png';
+import Twitter from '../../images/icons/twitter.png';
 
 import '../../styles/footer.css';
 
@@ -12,7 +14,27 @@ const Footer = () => {
       <div className="container container-custom">
         <div className="row">
           <div className="col-lg-3">
-            <div className="text-left">
+            <div className="text-left social-icon">
+              <a
+                href="https://www.facebook.com/jetpackshipping/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  src={Facebook}
+                  alt="facebook"
+                />
+              </a>
+              <a
+                href="https://twitter.com/JetPackShipping"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  src={Twitter}
+                  alt="twitter"
+                />
+              </a>
               <p>2021 Copyright <Link to="/">JetPack</Link></p>
               <p>All rights reserved.</p>
               <p>1-844-4-JETPACK</p>
@@ -21,14 +43,22 @@ const Footer = () => {
           <div className="col-lg-2">
             <div className="text-left">
               <Link to="/about">About JetPack</Link>
-              <p><img
-                src={ASI}
-                alt="asi"
-              /></p>
-              <p><img
-                src={FDA}
-                alt="fda"
-              /></p>
+              <p>
+                <Link to="/certifications">
+                  <img
+                    src={ASI}
+                    alt="asi"
+                  />
+                </Link>
+              </p>
+              <p>
+                <Link to="/certifications">
+                  <img
+                    src={FDA}
+                    alt="fda"
+                  />
+                </Link>
+              </p>
             </div>
           </div>
           <div className="col-lg-2">
