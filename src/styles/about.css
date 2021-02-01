@@ -1,0 +1,18 @@
+.ohio {
+  width: 100%;
+  height: auto;
+}
+
+.paragraphs-heading {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.paragraphs-text {
+  font-size: 15px;
+  line-height: 2;
+}
+
+.button-radius {
+  border-radius: 2px;
+}

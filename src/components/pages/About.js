@@ -1,16 +1,38 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
+import Button from '../common/utilities/Button';
+import { PARAGRAPHS } from '../../constants/about';
+
+import '../../styles/about.css';
 import Location from '../../images/about/location.png';
 
 const About = () => {
   return (
-    <div>
+    <div className="container">
       <img
         src={Location}
         alt="location"
+        className="ohio"
       />
-      <div>
+      <h1 className="text-center paragraphs-heading">
         PRIVATE LABEL & FULFILLMENT SPECIALISTS
+      </h1>
+
+      <div className="paragraphs-text">
+        {PARAGRAPHS.map(text => {
+          return <p>{text}</p>
+        })}
+      </div>
+
+      <div className="text-center">
+        <Link to="/quote">
+          <Button
+            styles="btn btn-primary btn-lg border-0 jps-theme button-radius"
+          >
+            GET A QUOTE
+          </Button>
+        </Link>
       </div>
     </div>
   );
