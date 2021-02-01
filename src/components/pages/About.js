@@ -25,12 +25,12 @@ const About = () => {
         })}
       </div>
 
-      <div className="text-center">
+      <div className="text-center font-weight-bold">
         <Link to="/quote">
           <Button
-            styles="btn btn-primary btn-lg border-0 jps-theme button-radius"
+            styles="btn btn-primary btn-lg border-0 jps-theme button-custom"
           >
-            GET A QUOTE
+            <span className="font-weight-bold">GET A QUOTE</span>
           </Button>
         </Link>
       </div>

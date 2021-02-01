@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import '../../styles/navbar.css';
 import Logo from '../../images/JetPacklogo.png';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light bg-white shadow-custom translucent">
       <Link
         to="/"
         className="navbar-brand"

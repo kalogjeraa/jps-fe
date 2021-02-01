@@ -10,6 +10,7 @@ import Fulfillment from './components/pages/Fulfillment';
 import PrivateLabeling from './components/pages/PrivateLabeling';
 import Quote from './components/pages/Quote';
 import TelephoneDial from './components/pages/TelephoneDial';
+import Terms from './components/pages/Terms';
 
 const Routes = () => {
   return (
@@ -24,6 +25,7 @@ const Routes = () => {
           <Route path="/private-labeling" exact render={() => <PrivateLabeling/>} />
           <Route path="/quote" exact render={() => <Quote />} />
           <Route path="/telephone-dial" exact render={() => <TelephoneDial />} />
+          <Route path="/terms" exact render={() => <Terms />} />
         </Switch>
         <Footer />
       </Router>
