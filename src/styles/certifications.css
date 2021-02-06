@@ -1,0 +1,43 @@
+.button-corners {
+  border-radius: 2px;
+}
+
+.row-space {
+  margin-bottom: 60px;
+}
+
+.page-headings {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-top: 100px;
+}
+
+.certifications-image-asi {
+  width: 100%;
+  height: 100%;
+  max-width: 350px;
+  max-height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.certifications-image-fda {
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  max-height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.small-headings {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.paragraphs-text {
+  font-size: 15px;
+  text-align: justify;
+  margin-bottom: 45px;
+}
