@@ -1,4 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
 .spacing {
   padding-top: 100px;
   padding-bottom: 60px;
+}
+
+.belt {
+  width: 100%;
+  height: auto;
+}
+
+.page-heading {
+  font-size: 65px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.introduction-text {
+  color: #585858;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.25;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 75px;
+}
+
+.flow-position {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.paragraphs-heading {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.paragraphs {
+  font-size: 20px;
+  margin-bottom: 45px;
+}
+
+.process {
+  margin-bottom: 50px;
+}
+
+.fancy-pictures {
+  width: 100%;
+  height: 100%;
+  max-width: 185px;
+  display: block;
+  margin: 0 auto;
+}
+
+.fancy-pictures-alternative {
+  width: 100%;
+  height: 100%;
+  max-width: 330px;
+  display: block;
+  margin: 0 auto;
 }
