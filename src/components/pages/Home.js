@@ -14,9 +14,16 @@ import '../../styles/home.css';
 
 const grid = require('../../data/home.json');
 
+const {
+  fulfillment,
+  contract,
+  partner,
+  finance
+} = grid;
+
 const Home = () => {
   return (
-    <div>
+    <>
       <BootstrapCarousel />
       <div className="logo-box">
         <img 
@@ -27,31 +34,33 @@ const Home = () => {
         <span className="line"/>
       </div>
 
-      <Row>
-        <GridIcon
-          image={MoneyWorld}
-          title={grid.fulfillment.title}
-          text={grid.fulfillment.text}
-        />
-        <GridIcon
-          image={Contract}
-          title={grid.contract.title}
-          text={grid.contract.text}
-        />
-      </Row>
-      <Row>
-        <GridIcon
-          image={Handshake}
-          title={grid.partner.title}
-          text={grid.partner.text}
-        />
-        <GridIcon
-          image={Finance}
-          title={grid.finance.title}
-          text={grid.finance.text}
-        />
-      </Row>
-    </div>
+      <div className="container">
+        <Row>
+          <GridIcon
+            image={MoneyWorld}
+            title={fulfillment.title}
+            text={fulfillment.text}
+          />
+          <GridIcon
+            image={Contract}
+            title={contract.title}
+            text={contract.text}
+          />
+        </Row>
+        <Row>
+          <GridIcon
+            image={Handshake}
+            title={partner.title}
+            text={partner.text}
+          />
+          <GridIcon
+            image={Finance}
+            title={finance.title}
+            text={finance.text}
+          />
+        </Row>
+      </div>
+    </>
   )
 };
 

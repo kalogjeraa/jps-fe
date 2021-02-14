@@ -1,0 +1,13 @@
+.custom-grid h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.custom-grid p {
+  font-size: 14px;
+  line-height: 2;
+}
+
+.custom-grid img {
+  width: 10%;
+}

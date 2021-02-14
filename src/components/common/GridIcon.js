@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../../styles/gridIcon.css';
+
 const GridIcon = props => {
   const {
     image,
@@ -8,13 +10,13 @@ const GridIcon = props => {
   } = props;
 
   return (
-    <div className="col-md-6">
+    <div className="col-md-6 custom-grid">
       <img
         src={image}
         alt="icon"
       />
-      <div>{title}</div>
-      <div>{text}</div>
+      <h2>{title}</h2>
+      <p>{text}</p>
     </div>
   );
 };

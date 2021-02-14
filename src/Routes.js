@@ -1,5 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Router, Switch, Route } from 'react-router-dom';
+
+import history from './history';
 
 import Navbar from './components/common/Navbar';
 import Footer from './components/common/Footer';
@@ -15,7 +17,7 @@ import Terms from './components/pages/Terms';
 const Routes = () => {
   return (
     <>
-      <Router>
+      <Router history={history}>
         <Navbar />
         <Switch>
           <Route path="/" exact render={() => <Home />} />
