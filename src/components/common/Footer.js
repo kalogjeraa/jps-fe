@@ -35,14 +35,18 @@ const Footer = () => {
                   alt="twitter"
                 />
               </a>
-              <p>2021 Copyright <Link to="/">JetPack</Link></p>
-              <p>All rights reserved.</p>
-              <p>1-844-4-JETPACK</p>
+              <div className="spacer spacer-bottom">
+                <p className="spacer-up">2021 Copyright <Link to="/">JetPack</Link></p>
+                <p>All rights reserved.</p>
+                <p>1-844-4-JETPACK</p>
+              </div>
             </div>
           </div>
           <div className="col-lg-2">
             <div className="text-left">
-              <Link to="/about">About JetPack</Link>
+              <p className="spacer spacer-bottom">
+                <Link to="/about">About JetPack</Link>
+              </p>
               <p>
                 <Link to="/certifications">
                   <img
@@ -62,13 +66,13 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-lg-2">
-            <div className="text-left">
-              <p><Link to="/terms">Privacy Policy</Link></p>
-              <p><Link to="/terms">Terms & Conditions</Link></p>
+            <div className="text-left spacer spacer-bottom">
+                <p><Link to="/terms">Privacy Policy</Link></p>
+                <p><Link to="/terms">Terms & Conditions</Link></p>
             </div>
           </div>
           <div className="col-lg-5">
-            <div className="text-left">
+            <div className="text-left stay-updated">
               STAY UPDATED WITH US!
             </div>
           </div>

@@ -17,3 +17,20 @@
   width: 50px;
   color: #33cc33;
 }
+
+.spacer-up {
+  margin-top: 15px;
+}
+
+.spacer-bottom {
+  margin-bottom: 15px;
+}
+
+.spacer {
+  font-size: 15px;
+  line-height: 1;
+}
+
+.stay-updated {
+  font-weight: bold;
+}
